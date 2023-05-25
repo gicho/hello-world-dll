@@ -3,8 +3,8 @@
 
 extern "C" __declspec(dllexport)
 DWORD WINAPI MessageBoxThread(LPVOID lpParam) {
-  MessageBox(NULL, "Hello world!", "Hello World!", NULL);
-  return 0;
+  MessageBox(NULL, "Hello world, 69!", "Hello World!", NULL);
+  return 69;
 }
 
 extern "C" __declspec(dllexport)
